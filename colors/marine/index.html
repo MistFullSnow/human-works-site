@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Human Works</title>
 <meta name="description" content="Human Works is the services company from Human School. We get things done.">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#0e1646">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--black:#0a0a0a;--white:#f2f2f2;--paper:#fafaf8;--gray:#cdf25a;--gray-dark:#5c5c5c;--f:'Montserrat',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
---bg:#0a0a0a;--fg:#f2f2f2;--mute:#8b8b8b;--lead:#b9b9b9;--line:rgba(255,255,255,.14)}
-.paper{position:absolute;inset:0;background:#fafaf8;clip-path:inset(100% 0 0 0);will-change:clip-path}
+:root{--black:#0e1646;--white:#ecd287;--paper:#fae8cd;--gray:#ff5c48;--gray-dark:#7d7466;--f:'Montserrat',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+--bg:#0e1646;--fg:#ecd287;--mute:#7d7466;--lead:#b4a377;--line:rgba(236,210,135,.14)}
+.paper{position:absolute;inset:0;background:#fae8cd;clip-path:inset(100% 0 0 0);will-change:clip-path}
 .bl{mix-blend-mode:difference}
 *{box-sizing:border-box;margin:0;padding:0}
-html{background:#0a0a0a}
+html{background:#0e1646}
 body{background:var(--bg);color:var(--fg);font-family:var(--f);-webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.7;font-size:17px}
 ::selection{background:var(--fg);color:var(--bg)}
 #scroll{position:relative}
 #stage{position:fixed;inset:0;overflow:hidden;background:var(--bg);color:var(--fg)}
-.brick{position:absolute;left:0;top:0;background:#f2f2f2;mix-blend-mode:difference;will-change:transform;transform-origin:50% 50%}
+.brick{position:absolute;left:0;top:0;background:#ecd287;mix-blend-mode:difference;will-change:transform;transform-origin:50% 50%}
 .brick.grey{background:var(--gray);mix-blend-mode:normal;z-index:5}
 header{position:fixed;z-index:20;left:0;right:0;top:0;height:64px;display:flex;justify-content:space-between;align-items:center;padding:0 clamp(18px,4vw,64px);border-bottom:1px solid var(--line);mix-blend-mode:difference}
 .brand{display:flex;align-items:center;gap:12px;color:var(--fg);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.12em}
@@ -45,8 +45,8 @@ h2{font-size:clamp(1.8rem,3.8vw,3.1rem)}
 h1 em,h2 em{font-style:normal;color:var(--mute)}
 .lead{font-size:1.08rem;line-height:1.7;color:var(--lead);max-width:30em;margin-top:24px}
 .btns{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
-.card{opacity:0;position:absolute;mix-blend-mode:difference;left:0;top:0;color:#f2f2f2;padding:clamp(14px,1.8vw,28px);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transform-origin:50% 50%;will-change:transform}
-.card[data-c='3']{color:#cdf25a}.card b{font-size:.72rem;letter-spacing:.28em;font-weight:500;text-transform:uppercase;opacity:.7}
+.card{opacity:0;position:absolute;mix-blend-mode:difference;left:0;top:0;color:#ecd287;padding:clamp(14px,1.8vw,28px);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transform-origin:50% 50%;will-change:transform}
+.card[data-c='3']{color:#ff5c48}.card b{font-size:.72rem;letter-spacing:.28em;font-weight:500;text-transform:uppercase;opacity:.7}
 .card h3{font-size:clamp(1.05rem,1.7vw,1.6rem);font-weight:700;letter-spacing:-.01em;line-height:1.15}
 .card p{font-size:clamp(.72rem,.95vw,.92rem);line-height:1.45;font-weight:500;margin-top:.55em;opacity:.78}
 .step{opacity:0;position:absolute;mix-blend-mode:difference;left:0;top:0;display:flex;flex-direction:column;justify-content:center;will-change:transform}
@@ -56,7 +56,7 @@ h1 em,h2 em{font-style:normal;color:var(--mute)}
 .step p{font-size:.92rem;color:var(--lead);font-weight:500;line-height:1.5;max-width:24em;margin-top:.5em}
 .tags{display:flex;gap:6px;margin-top:.8em;flex-wrap:wrap}
 .tags span{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--lead);border:1px solid var(--line);padding:5px 9px}
-#cta{mix-blend-mode:difference;position:absolute;left:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,2.4vw,40px);color:#cdf25a;font-weight:700;font-size:clamp(1.1rem,2.2vw,2rem);letter-spacing:-.01em;border:0;background:transparent;font-family:var(--f);cursor:pointer;transform-origin:50% 50%}
+#cta{mix-blend-mode:difference;position:absolute;left:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,2.4vw,40px);color:#ff5c48;font-weight:700;font-size:clamp(1.1rem,2.2vw,2rem);letter-spacing:-.01em;border:0;background:transparent;font-family:var(--f);cursor:pointer;transform-origin:50% 50%}
 #cta span{font-weight:500;font-size:.4em;letter-spacing:.28em;text-transform:uppercase}
 .foot{mix-blend-mode:difference;position:absolute;left:0;right:0;text-align:center;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--mute);font-weight:500}
 .foot a{color:inherit;text-decoration:underline;text-underline-offset:3px}.foot{pointer-events:auto}.ctatxt{mix-blend-mode:difference;position:absolute;left:0;right:0;text-align:center}
@@ -67,7 +67,7 @@ h1 em,h2 em{font-style:normal;color:var(--mute)}
 @keyframes tick{to{transform:translateX(-50%)}}
 @media (max-width:720px){.foot{font-size:9px;letter-spacing:.12em;padding:0 6px}.hnav a.l{display:none}header{height:58px}#strip{top:58px;font-size:10px;letter-spacing:.2em}body{font-size:16px}}
 @media (prefers-reduced-motion:reduce){.ticker div{animation:none}}
-</style>
+.brick:not(.grey){background:repeating-linear-gradient(135deg,#ecd287 0 7px,transparent 7px 14px)!important;box-shadow:inset 0 0 0 3px #ecd287}</style>
 </head>
 <body>
 <div id="scroll"></div>
