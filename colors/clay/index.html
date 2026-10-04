@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Human Works</title>
 <meta name="description" content="Human Works is the services company from Human School. We get things done.">
-<meta name="theme-color" content="#150a07">
+<meta name="theme-color" content="#100c0a">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--black:#150a07;--white:#f2f2f2;--paper:#f3e7da;--gray:#e8502a;--gray-dark:#e8502a;--f:'Montserrat',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
---bg:#150a07;--fg:#f2f2f2;--mute:#e8502a;--lead:#b9b9b9;--line:rgba(255,255,255,.14)}
-.paper{position:absolute;inset:0;background:#f3e7da;clip-path:inset(100% 0 0 0);will-change:clip-path}
+:root{--black:#100c0a;--white:#f2f2f2;--paper:#f3ede5;--gray:#d98a5f;--gray-dark:#5c5c5c;--f:'Montserrat',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+--bg:#100c0a;--fg:#f2f2f2;--mute:#8b8b8b;--lead:#b9b9b9;--line:rgba(255,255,255,.14)}
+.paper{position:absolute;inset:0;background:#f3ede5;clip-path:inset(100% 0 0 0);will-change:clip-path}
 .bl{mix-blend-mode:difference}
 *{box-sizing:border-box;margin:0;padding:0}
-html{background:#150a07}
+html{background:#100c0a}
 body{background:var(--bg);color:var(--fg);font-family:var(--f);-webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.7;font-size:17px}
 ::selection{background:var(--fg);color:var(--bg)}
 #scroll{position:relative}
 #stage{position:fixed;inset:0;overflow:hidden;background:var(--bg);color:var(--fg)}
 .brick{position:absolute;left:0;top:0;background:#f2f2f2;mix-blend-mode:difference;will-change:transform;transform-origin:50% 50%}
-.brick.grey{background:var(--gray)}
+.brick.grey{background:var(--gray);mix-blend-mode:normal;z-index:5}
 header{position:fixed;z-index:20;left:0;right:0;top:0;height:64px;display:flex;justify-content:space-between;align-items:center;padding:0 clamp(18px,4vw,64px);border-bottom:1px solid var(--line);mix-blend-mode:difference}
 .brand{display:flex;align-items:center;gap:12px;color:var(--fg);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.12em}
 .brand span{font-weight:500;color:var(--mute)}
@@ -46,7 +46,7 @@ h1 em,h2 em{font-style:normal;color:var(--mute)}
 .lead{font-size:1.08rem;line-height:1.7;color:var(--lead);max-width:30em;margin-top:24px}
 .btns{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
 .card{opacity:0;position:absolute;mix-blend-mode:difference;left:0;top:0;color:#f2f2f2;padding:clamp(14px,1.8vw,28px);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transform-origin:50% 50%;will-change:transform}
-.card[data-c='3']{color:#e8502a}.card b{font-size:.72rem;letter-spacing:.28em;font-weight:500;text-transform:uppercase;opacity:.7}
+.card[data-c='3']{color:#d98a5f}.card b{font-size:.72rem;letter-spacing:.28em;font-weight:500;text-transform:uppercase;opacity:.7}
 .card h3{font-size:clamp(1.05rem,1.7vw,1.6rem);font-weight:700;letter-spacing:-.01em;line-height:1.15}
 .card p{font-size:clamp(.72rem,.95vw,.92rem);line-height:1.45;font-weight:500;margin-top:.55em;opacity:.78}
 .step{opacity:0;position:absolute;mix-blend-mode:difference;left:0;top:0;display:flex;flex-direction:column;justify-content:center;will-change:transform}
@@ -56,7 +56,7 @@ h1 em,h2 em{font-style:normal;color:var(--mute)}
 .step p{font-size:.92rem;color:var(--lead);font-weight:500;line-height:1.5;max-width:24em;margin-top:.5em}
 .tags{display:flex;gap:6px;margin-top:.8em;flex-wrap:wrap}
 .tags span{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--lead);border:1px solid var(--line);padding:5px 9px}
-#cta{mix-blend-mode:difference;position:absolute;left:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,2.4vw,40px);color:#e8502a;font-weight:700;font-size:clamp(1.1rem,2.2vw,2rem);letter-spacing:-.01em;border:0;background:transparent;font-family:var(--f);cursor:pointer;transform-origin:50% 50%}
+#cta{mix-blend-mode:difference;position:absolute;left:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,2.4vw,40px);color:#d98a5f;font-weight:700;font-size:clamp(1.1rem,2.2vw,2rem);letter-spacing:-.01em;border:0;background:transparent;font-family:var(--f);cursor:pointer;transform-origin:50% 50%}
 #cta span{font-weight:500;font-size:.4em;letter-spacing:.28em;text-transform:uppercase}
 .foot{mix-blend-mode:difference;position:absolute;left:0;right:0;text-align:center;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--mute);font-weight:500}
 .foot a{color:inherit;text-decoration:underline;text-underline-offset:3px}.foot{pointer-events:auto}.ctatxt{mix-blend-mode:difference;position:absolute;left:0;right:0;text-align:center}
@@ -74,7 +74,7 @@ h1 em,h2 em{font-style:normal;color:var(--mute)}
 <div id="stage">
  <div class="paper" id="paper"></div>
 <header>
- <a class="brand" href="#" data-go="0" aria-label="Human Works"><svg viewBox="0 0 7 9" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="3" height=".8"/><rect x="4" y="0" width="3" height=".8"/><rect x="0" y="2" width=".8" height=".8"/><rect x="2" y="2" width="3" height=".8"/><rect x="6.2" y="2" width=".8" height=".8"/><rect x="0" y="4" width="3" height=".8"/><rect x="4" y="4" width="3" height=".8" fill="#e8502a"/><rect x="0" y="6" width=".8" height=".8"/><rect x="2" y="6" width="3" height=".8"/><rect x="6.2" y="6" width=".8" height=".8"/><rect x="0" y="8" width="3" height=".8"/><rect x="4" y="8" width="3" height=".8"/></svg>HUMAN<span>WORKS</span></a>
+ <a class="brand" href="#" data-go="0" aria-label="Human Works"><svg viewBox="0 0 7 9" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="3" height=".8"/><rect x="4" y="0" width="3" height=".8"/><rect x="0" y="2" width=".8" height=".8"/><rect x="2" y="2" width="3" height=".8"/><rect x="6.2" y="2" width=".8" height=".8"/><rect x="0" y="4" width="3" height=".8"/><rect x="4" y="4" width="3" height=".8" fill="#8b8b8b"/><rect x="0" y="6" width=".8" height=".8"/><rect x="2" y="6" width="3" height=".8"/><rect x="6.2" y="6" width=".8" height=".8"/><rect x="0" y="8" width="3" height=".8"/><rect x="4" y="8" width="3" height=".8"/></svg>HUMAN<span>WORKS</span></a>
  <nav class="hnav"><a class="l" href="#" data-go="1">Method</a><a class="l" href="#" data-go="2">Services</a><a class="l" href="https://humanschool.in" target="_blank" rel="noopener">Human School</a><a class="btn sm" href="#" data-go="4">Start a project</a></nav>
 </header>
 <div id="strip"><span id="slabel">Human Works</span><span id="scount">01 / 05</span></div>
